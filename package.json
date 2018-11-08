@@ -1,0 +1,39 @@
+{
+  "name": "listit-fullstack",
+  "version": "1.0.0",
+  "description": "a realtime shopping list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adahutchings/listit-fullstack.git"
+  },
+  "author": "Ada Hutchings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adahutchings/listit-fullstack/issues"
+  },
+  "homepage": "https://github.com/adahutchings/listit-fullstack#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-validator": "^5.3.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.6.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.41.1",
+    "sequelize-cli": "^5.3.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  }
+}
